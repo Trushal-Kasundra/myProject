@@ -7,5 +7,16 @@
 </head>
 <body>
     <h1>Hello</h1>
+    <input alt="Random number" type="number" id="numberID" />
+    <button onclick="myFunction()">Submit</button>
+    <p id="demo">heelo</p>
+    <script>
+        function myFunction(){
+            console.log("hello");
+            let myVariable = document.getElementById("numberID").value;
+            console.log(document.getElementById("numberID").value);
+         document.getElementById("demo").innerHTML= myVariable;
+        }
+        </script>
 </body>
 </html>
